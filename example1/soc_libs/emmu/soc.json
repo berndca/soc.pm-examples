@@ -1,0 +1,24 @@
+{
+  "deps": [
+    {
+      "parallella/oh/packet2emesh": "~> 0.2"
+    },
+    {
+      "parallella/oh/oh_lib": "~> 0.4"
+    }
+  ],
+  "package": {
+    "files": ["soc.json", "component.xml", "README.md", "emmu.v"],
+    "maintainers": [
+      "Andreas Olofsson"
+    ],
+    "licenses": [
+      "mit"
+    ],
+    "links": {
+      "GitHub": "https://github.com/parallella/oh"
+    }
+  }
+}
+
+

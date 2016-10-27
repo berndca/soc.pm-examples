@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014"
+xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014/
+http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>parallella</ipxact:vendor>
+    <ipxact:library>oh</ipxact:library>
+    <ipxact:name>oh_lib</ipxact:name>
+    <ipxact:version>0.7.5</ipxact:version>
+    <ipxact:description>Bidirectional port with output-enable</ipxact:description>
+    <ipxact:catalogs>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_7seg_decode.xml</ipxact:name>
+            <ipxact:description>BCD Seven Segment Decoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_8b10b_decode.xml</ipxact:name>
+            <ipxact:description>10 bit to 8 bit decoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_8b10b_encode.xml</ipxact:name>
+            <ipxact:description>8 bit to 10 bit Encoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_abs.xml</ipxact:name>
+            <ipxact:description>Calculates absolute value of input</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_add.xml</ipxact:name>
+            <ipxact:description>Two's compliment adder/subtractor</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_arbiter.xml</ipxact:name>
+            <ipxact:description>Statically configured arbiter</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_bin2gray.xml</ipxact:name>
+            <ipxact:description>Binary to gray encoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_bin2onehot.xml</ipxact:name>
+            <ipxact:description>Binary to one hot encoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_bitreverse.xml</ipxact:name>
+            <ipxact:description>Binary to one hot encoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_buffer.xml</ipxact:name>
+            <ipxact:description>Buffer Secondary clock must be multiple of first clock</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_clockdiv.xml</ipxact:name>
+            <ipxact:description>Clock divider with 2 outputs</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_clockgate.xml</ipxact:name>
+            <ipxact:description>Low power clock gate circuit</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_clockmux.xml</ipxact:name>
+            <ipxact:description>Clock mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_clockor.xml</ipxact:name>
+            <ipxact:description>Clock 'OR' gate</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_counter.xml</ipxact:name>
+            <ipxact:description>Binary to gray encoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_crc.xml</ipxact:name>
+            <ipxact:description>CRC combinatorial encoder wrapper</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_crc32_8b.xml</ipxact:name>
+            <ipxact:description>CRC module oh_crc32_8b</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_crc32_64b.xml</ipxact:name>
+            <ipxact:description>CRC module oh_crc32_64b</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_csa32.xml</ipxact:name>
+            <ipxact:description>Carry Save Adder (3:2)</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_csa42.xml</ipxact:name>
+            <ipxact:description>Carry Save Adder (4:2)</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_csa62.xml</ipxact:name>
+            <ipxact:description>Function: Carry Save Adder (6:2)</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_csa92.xml</ipxact:name>
+            <ipxact:description>Carry Save Adder (9:2)</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_datagate.xml</ipxact:name>
+            <ipxact:description>Low power data gate</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_debouncer.xml</ipxact:name>
+            <ipxact:description>A digital debouncer circuit</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_delay.xml</ipxact:name>
+            <ipxact:description>Delay element</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_dsync.xml</ipxact:name>
+            <ipxact:description>Clock synchronizer</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_edge2pulse.xml</ipxact:name>
+            <ipxact:description>Converts an edge to a single cycle pulse</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_edgealign.xml</ipxact:name>
+            <ipxact:description>Aligns positive edge of slow clock to fast clock</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_edgedetect.xml</ipxact:name>
+            <ipxact:description>Synchronous edge detection</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_fall2pulse.xml</ipxact:name>
+            <ipxact:description>Converts a falling edge to a single cycle pulse</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_fifo_async.xml</ipxact:name>
+            <ipxact:description>Parametrized asynchronous clock FIFO</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_fifo_cdc.xml</ipxact:name>
+            <ipxact:description>Clock domain crossing FIFO</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_fifo_generic.xml</ipxact:name>
+            <ipxact:description>Generic Async FIFO</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_fifo_sync.xml</ipxact:name>
+            <ipxact:description>Synchronous FIFO</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_gray2bin.xml</ipxact:name>
+            <ipxact:description>Gray to binary encoder</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_iddr.xml</ipxact:name>
+            <ipxact:description>Dual data rate input buffer (2 cycle delay)</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_lat0.xml</ipxact:name>
+            <ipxact:description>Latch data when clk=0</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_lat1.xml</ipxact:name>
+            <ipxact:description>Achive high latch</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_memory_dp.xml</ipxact:name>
+            <ipxact:description>Dual Port Memory</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_memory_ram.xml</ipxact:name>
+            <ipxact:description>Generic RAM memory</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_memory_sp.xml</ipxact:name>
+            <ipxact:description>Single Port Memory</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux.xml</ipxact:name>
+            <ipxact:description>ONE HOT N:1 MUX</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux2.xml</ipxact:name>
+            <ipxact:description>2:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux3.xml</ipxact:name>
+            <ipxact:description>3:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux4.xml</ipxact:name>
+            <ipxact:description>4:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux5.xml</ipxact:name>
+            <ipxact:description>5:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux6.xml</ipxact:name>
+            <ipxact:description>6:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux7.xml</ipxact:name>
+            <ipxact:description>7:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux8.xml</ipxact:name>
+            <ipxact:description>8:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux9.xml</ipxact:name>
+            <ipxact:description>9:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_mux12.xml</ipxact:name>
+            <ipxact:description>12:1 one hot mux</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_oddr.xml</ipxact:name>
+            <ipxact:description>Dual data rate output buffer</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_par2ser.xml</ipxact:name>
+            <ipxact:description>Parallel to Serial Converter</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_parity.xml</ipxact:name>
+            <ipxact:description>Calculates parity value for</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_pll.xml</ipxact:name>
+            <ipxact:description>Phase Locked Loop</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_pulse2pulse.xml</ipxact:name>
+            <ipxact:description>Clock domain one cycle pulse transfer  (sync deassert)</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_pwr_buf.xml</ipxact:name>
+            <ipxact:description>Buffer that propagates "X" if power supply is invalid</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_pwr_gate.xml</ipxact:name>
+            <ipxact:description>Power supply header switch</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_pwr_isohi.xml</ipxact:name>
+            <ipxact:description>Isolation buffer (HIGH) for multi supply domains</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_pwr_isolo.xml</ipxact:name>
+            <ipxact:description>Isolation (Low) buffer for multi supply domains</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_reg0.xml</ipxact:name>
+            <ipxact:description>Falling Edge Sampled Register</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_reg1.xml</ipxact:name>
+            <ipxact:description>Rising Edge Sampled Register</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_rise2pulse.xml</ipxact:name>
+            <ipxact:description>Converts a rising edge to a single cycle pulse</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_rsync.xml</ipxact:name>
+            <ipxact:description>Reset synchronizer (async assert</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_ser2par.xml</ipxact:name>
+            <ipxact:description>Serial to Parallel Converter</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_shifter.xml</ipxact:name>
+            <ipxact:description>Barrel shifter</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_standby.xml</ipxact:name>
+            <ipxact:description>Low power standby state machine</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_stretcher.xml</ipxact:name>
+            <ipxact:description>Stretches a pulse by DW+1 clock cycles - Adds one cycle latency</ipxact:description>
+        </ipxact:ipxactFile>
+        <ipxact:ipxactFile>
+            <ipxact:vlnv vendor="parallella" library="oh" name="oh_lib" version="0.7.5"/>
+            <ipxact:name>components/oh_tristate.xml</ipxact:name>
+            <ipxact:description>Bidirectional port with output-enable</ipxact:description>
+        </ipxact:ipxactFile>
+    </ipxact:catalogs>
+</ipxact:catalog>

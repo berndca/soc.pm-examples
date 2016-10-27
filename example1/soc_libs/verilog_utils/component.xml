@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014"
+xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014/
+http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>openrisc</ipxact:vendor>
+    <ipxact:library>orpsoc-cores</ipxact:library>
+    <ipxact:name>verilog_utils</ipxact:name>
+    <ipxact:version>1.1.1</ipxact:version>
+    <ipxact:fileSets>
+        <ipxact:fileSet>
+            <ipxact:name>hdl</ipxact:name>
+            <ipxact:group>package</ipxact:group>
+            <ipxact:file>
+                <ipxact:name>verilog_utils.v</ipxact:name>
+                <ipxact:fileType>verilogSource</ipxact:fileType>
+                
+            </ipxact:file>
+        </ipxact:fileSet>
+    </ipxact:fileSets>
+    <ipxact:description>Verilog utility functions</ipxact:description>
+</ipxact:component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014"
+xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014/
+http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>parallella</ipxact:vendor>
+    <ipxact:library>oh</ipxact:library>
+    <ipxact:name>emmu</ipxact:name>
+    <ipxact:version>1.4.3</ipxact:version>
+    <ipxact:fileSets>
+        <ipxact:fileSet>
+            <ipxact:name>hdl</ipxact:name>
+            <ipxact:group>synthesis</ipxact:group>
+            <ipxact:file>
+                <ipxact:name>emmu.v</ipxact:name>
+                <ipxact:fileType>verilogSource</ipxact:fileType>
+                
+            </ipxact:file>
+        </ipxact:fileSet>
+        <ipxact:fileSet>
+            <ipxact:name>README</ipxact:name>
+            <ipxact:group>documentation</ipxact:group>
+            <ipxact:file>
+                <ipxact:name>README.md</ipxact:name>
+                <ipxact:fileType>user</ipxact:fileType>
+                
+            </ipxact:file>
+        </ipxact:fileSet>
+    </ipxact:fileSets>
+    <ipxact:description>Memory translation Unit</ipxact:description>
+</ipxact:component>

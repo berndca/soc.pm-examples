@@ -1,0 +1,16 @@
+{
+  "package": {
+    "files": ["soc.json", "component.xml", "packet2emesh.v"],
+    "maintainers": [
+      "Andreas Olofsson"
+    ],
+    "licenses": [
+      "mit"
+    ],
+    "links": {
+      "GitHub": "https://github.com/parallella/oh/tree/master/src/common"
+    }
+  }
+}
+
+

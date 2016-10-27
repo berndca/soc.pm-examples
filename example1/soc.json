@@ -1,0 +1,11 @@
+{
+  "deps": [
+    {
+      "parallella/oh/emmu": "~> 1.0"
+    },
+    {
+      "openrisc/orpsoc-cores/verilog_utils": "~> 1.0",
+      "only": "dev"
+    }
+  ]
+}

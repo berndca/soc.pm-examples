@@ -1,0 +1,15 @@
+{
+  "parallella/oh/emmu": {"parallella/oh/emmu", "1.4.3",
+    "a7966efb868b179023618d29a407548f70c52466bf1849b9e8ebd0e34b7ea11f", [],
+    [
+      {"parallella/oh/packet2emesh": "~> 0.2", "optional": false},
+      {"parallella/oh/oh_lib": "~> 0.4", "optional": false}
+    ]
+  },
+  "parallella/oh/packet2emesh": {"parallella/oh/packet2emesh", "0.5.0",
+    "ccd70ebf465eaf4e11fc5a13fd0f5be2538b6b4975d4f7a13d571670b31da060", [], []},
+  "parallella/oh/oh_lib": {"parallella/oh/oh_lib", "0.7.5",
+    "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [], []},
+  "openrisc/orpsoc-cores/verilog_utils": {"openrisc/orpsoc-cores/verilog_utils", "1.1.0",
+    "a324a8df9f2316c833a470d918aaf73ae894278b8aa6226ce7a9bf699388f878", [], []}
+}

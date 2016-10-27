@@ -1,0 +1,16 @@
+{
+  "package": {
+    "files": ["soc.json", "component.xml", "verilog_utils.v"],
+    "maintainers": [
+      "Stefan Kristiansson <stefan.kristiansson@saunalahti.fi>"
+    ],
+    "licenses": [
+      "mit"
+    ],
+    "links": {
+      "GitHub": "https://github.com/openrisc/orpsoc-cores/tree/master/cores/verilog_utils"
+    }
+  }
+}
+
+
