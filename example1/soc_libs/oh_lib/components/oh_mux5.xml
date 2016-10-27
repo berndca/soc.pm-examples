@@ -5,16 +5,15 @@ xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014/
 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
     <ipxact:vendor>parallella</ipxact:vendor>
     <ipxact:library>oh</ipxact:library>
-    <ipxact:name>oh_lib</ipxact:name>
+    <ipxact:name>oh_mux5</ipxact:name>
     <ipxact:version>0.7.5</ipxact:version>
     <ipxact:fileSets>
         <ipxact:fileSet>
             <ipxact:name>oh_mux5</ipxact:name>
             <ipxact:group>synthesis</ipxact:group>
             <ipxact:file>
-                <ipxact:name>oh_mux5.v</ipxact:name>
+                <ipxact:name>../hdl/oh_mux5.v</ipxact:name>
                 <ipxact:fileType>verilogSource</ipxact:fileType>
-                
             </ipxact:file>
         </ipxact:fileSet>
     </ipxact:fileSets>
